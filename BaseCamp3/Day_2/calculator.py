@@ -5,7 +5,7 @@ import json
 st.title("Calculator App")
 st.write("This app connects to a FastAPI calculator service.")
 
-# Define the API base URL
+# Define the API base URL 
 api_url = "https://genaiengineering-cohort2-1.onrender.com/"
 
 # Initialize session state to store the calculator display and current operation
