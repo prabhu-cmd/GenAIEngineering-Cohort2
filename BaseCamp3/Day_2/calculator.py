@@ -132,7 +132,7 @@ if st.session_state.api_response:
 st.markdown("---")
 st.subheader("How to use this calculator")
 st.markdown("""
-1. Make sure the FastAPI calculator service is running at http://0.0.0.0:9321
+1. Make sure the FastAPI calculator service is running at http://0.0.0.0:9321 or in a cloud location
 2. Use the calculator buttons to input numbers and operations
 3. Click "=" to calculate the result by calling the API
 4. Click "C" to clear the calculator
